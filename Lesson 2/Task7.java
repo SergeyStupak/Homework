@@ -4,21 +4,16 @@
  */
 public class Task7 {
     public static void main(String[] args) {
-        int a = 5;
+       int a = 22;
 
-
-    switch (a){
-        case 1:
-            System.out.println(a+"программист");
-            break;
-        case 2:
-            System.out.println(a+"программиста");
-            break;
-        case 3:
-            System.out.println(a+"программистов");
-            break;
-        default:
+       int x = a % 10;
+       int y = a % 100;
+       if (a==1 | a>20) {
+           System.out.println(a + " программист");
+       } else if (a<=2 | a<=4  ) {
+            System.out.println(a + " программистa");
+       }else
+            System.out.println(a + " программистов");
     }
 
-    }
 }
