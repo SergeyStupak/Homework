@@ -10,7 +10,6 @@ public class Met12 {
                 sum += numbers[i];
         }
         System.out.println(sum);
-
     }
 }
 

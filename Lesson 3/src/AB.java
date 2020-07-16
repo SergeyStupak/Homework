@@ -7,20 +7,18 @@ import java.util.Scanner;
  */
 public class AB {
     public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//        System.out.println("Введите значение A");
-//        int a = sc.nextInt();
-//        System.out.println("Введите значение B");
-//        int b = sc.nextInt();
-//        sc.close();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите значение A");
+        int a = sc.nextInt();
+        System.out.println("Введите значение B");
+        int b = sc.nextInt();
+        sc.close();
 
-        int a = 7;
-        int b = 4;
         int resault = 0;
         for (int i = 0; i < b; i++) {
             resault += a;
         }
-        System.out.println(resault);
+        System.out.println(a + " * " + b + " = " + resault);
     }
 }
 

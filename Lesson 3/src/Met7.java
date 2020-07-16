@@ -14,9 +14,9 @@ public class Met7 {
         int Радиус = sc.nextInt();
 sc.close();
         if (Радиус>Длина/2 & Радиус>Ширина/2) {
-            System.out.println("Можно");
+            System.out.println("Закрывай а то дует");
         }else {
-            System.out.println("Нельзя");
+            System.out.println("У тебя ничего не выйдет");
         }
 
     }

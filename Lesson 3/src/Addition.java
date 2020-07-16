@@ -9,7 +9,5 @@ public class Addition {
             sum += i;
         }
         System.out.println(sum);
-
-
     }
 }

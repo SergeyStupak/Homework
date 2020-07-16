@@ -25,7 +25,6 @@ public class Met6 {
         } else {
             System.out.println("Это число не четное");
         }
-
     }
 }
 

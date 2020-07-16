@@ -9,7 +9,6 @@ public class Ameba {
             Ameba *= 2;
             h += 3;
             System.out.println("Через " + h + " часов будет " + Ameba + " амебы");
-
         }
     }
 }

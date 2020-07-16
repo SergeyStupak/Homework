@@ -11,10 +11,11 @@ public class Met14 {
                     int tmp = assessment[index];
                     assessment[index] = assessment[(index + 1)];
                     assessment[(index + 1)] = tmp;
+
                 }
-
-
+            }
         }
-    }}}
-
-
+        System.out.println("Максимальная оценка= "+assessment[4]);
+        System.out.println("Минимальная оценка= "+assessment[0]);
+    }
+}

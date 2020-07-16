@@ -4,14 +4,13 @@
 
 public class EvenNumber {
     public static void main(String[] args) {
-        int[] numbers = new int[102];
-        for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = ((int) (Math.random() * 10) + 2);
-
-            for (int a = 2; a <= 100; a++) {
-                if (a%2==0);
-                System.out.println(a);
-            }
+        int[] numbers = new int[101];
+        for (int i = 1; i < numbers.length; i++) {
+            if (i % 2 == 0);
+            i++;
+            System.out.print(i +" "+'\t');
         }
-    }}
+    }
+}
+
 
