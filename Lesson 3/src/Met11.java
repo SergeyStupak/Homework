@@ -4,9 +4,15 @@
  */
 public class Met11 {
     public static void main(String[] args) {
-        int number = 5;
-        for (int i = 1; i <= number; i++) {
-
+        int number = 228;
+        for (int i = 2; i <= number; i++) {
+            if (number % i == 1) {
+                System.out.println(number +" являеться простым числом");
+                return;
+            } else {
+                System.out.println(number +" не являеться простым числом");
+                return;
+            }
         }
     }
 }
