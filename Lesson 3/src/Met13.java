@@ -1,5 +1,6 @@
 import java.net.BindException;
 import java.util.Random;
+
 /**
  * Создать последовательность случайных чисел, найти и вывести наибольшее из них.
  */
@@ -8,7 +9,7 @@ public class Met13 {
         int[] numbers = new int[5];
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = ((int) (Math.random() * 10) - 0);
-            System.out.print(numbers[i]+",");
+            System.out.print(numbers[i] + ",");
         }
         for (int start = 0; start < numbers.length - 1; start++) {
             for (int index = 0; index < numbers.length - 1 - start; index++) {
@@ -20,7 +21,7 @@ public class Met13 {
                 }
             }
         }
-        System.out.println('\n'+"Наибольшим числом будет " +numbers[4]);
+        System.out.println('\n' + "Наибольшим числом будет " + numbers[4]);
     }
 }
 

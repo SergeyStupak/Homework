@@ -6,20 +6,19 @@
 public class Met15 {
     public static void main(String[] args) {
         int array[] = {5, 3, 9, 7, 8, 1, 6, 5, 8, 7, 3};
-        for (int i = 0; i < array.length; i++){
-            System.out.print(array[i] + " ");
-            for (int start = 0; start < array.length - 1; start++) {
-            for (int index = 0; index < array.length - 1 - start; index++){
-                if (array[index] > array[index + 1]) {
-                    int tmp = array[index];
-                array[index] = array[(index + 1)];
-                array[(index + 1)] = tmp;
-                System.out.print(array[tmp] + " ");
+        for (int start = 0; start < array.length; start++) {
+            System.out.print(array[start] + "\t");
+        }
+        System.out.print("<==>" + "\t");
+        for (int i = array.length - 1; i > -1; i--) {
+            System.out.print(array[i] + "\t");
+        }
+    }
+}
 
 
-                }
-            }
-        }}}}
+
+
 
 
 

@@ -2,4 +2,8 @@
  *
  */
 public class Met16 {
+    public static void main(String []args){
+        int array[] = {5, 3, 9, 7, 8, 1, 6, 5, 8, 7, 3};
+
+    }
 }
