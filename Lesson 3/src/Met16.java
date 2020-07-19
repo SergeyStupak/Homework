@@ -1,9 +1,20 @@
-/**Определите сумму элементов одномерного массива, расположенных между минимальным и максимальным значениями.
- *
+import java.util.Random;
+
+/**
+ * Определите сумму элементов одномерного массива, расположенных между минимальным и максимальным значениями.
  */
 public class Met16 {
-    public static void main(String []args){
-        int array[] = {5, 3, 9, 7, 8, 1, 6, 5, 8, 7, 3};
+    public static void main(String[] args) {
+        int array[] = new int[10];
+        Random rand = new Random();
+        for (int i = 0; i < array.length; i++) {
+            array[i] = rand.nextInt(9);
+        }
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + "\t");
+
+        }
 
     }
 }
+
